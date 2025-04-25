@@ -33,19 +33,19 @@ const testCases = [
     expected: false,
   },
   {
-    input: 1, // Single digit
+    input: 1, 
     expected: true,
   },
   {
-    input: 11, // Two digits
+    input: 11, 
     expected: true,
   },
   {
-    input: 121, // Three digits
+    input: 121, 
     expected: true,
   },
   {
-    input: 12345, // Five digits
+    input: 12345, 
     expected: false,
   },
 ];
